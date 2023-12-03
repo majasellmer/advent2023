@@ -12,6 +12,7 @@ with open('advent1.txt') as calibration_document:
         line = line.rstrip('\n')
         # create list to record all the digits in
         digits_list = []
+        # PART 1:
         # for char in line:
             # if char.isdigit():
             #     digits_list.append(int(char))
