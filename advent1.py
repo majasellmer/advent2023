@@ -4,21 +4,30 @@ solution by Maja Sellmer
 """
 
 with open('advent1.txt') as calibration_document:
+
+    # PREPARE INPUT
     calibration_lines = calibration_document.readlines()
-    calibration_values_sum = 0
+    for line in calibration_lines:
+        line = line.rstrip('\n')
+    digits_lists_list = []
+
+    # PART 1
+    # for line in calibration_lines:
+    #     digits_list = []
+    #     for char in line:
+    #         if char.isdigit():
+    #             digits_list.append(int(char))
+    #     digits_lists_list.append(digits_list)
+
+    # PART 2
     digits_spelled_out = ['one', 'two', 'three', 'four', 'five',
                           'six', 'seven', 'eight', 'nine']
     for line in calibration_lines:
-        line = line.rstrip('\n')
         # create list to record all the digits in
         digits_list = []
-        # PART 1:
-        # for char in line:
-            # if char.isdigit():
-            #     digits_list.append(int(char))
+        # find indices for all appearances of spelled out digits in the line
         digits_indices = []
         digits_indices_merged = []
-        # find indices for all appearances of spelled out digits in the line
         for digit in digits_spelled_out:
             digit_indices = []
             if digit in line:
@@ -46,6 +55,11 @@ with open('advent1.txt') as calibration_document:
             if line[i].isdigit():
                 digits_list.append(int(line[i]))
             i += 1
+        digits_lists_list.append(digits_list)
+
+    # PART 1 + 2
+    calibration_values_sum = 0
+    for digits_list in digits_lists_list:
         # the calibration value consists of the first and last digit
         calibration_value = 10*digits_list[0] + digits_list[-1]
         calibration_values_sum += calibration_value
