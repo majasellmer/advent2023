@@ -7,8 +7,6 @@ with open('advent1.txt') as calibration_document:
 
     # PREPARE INPUT
     calibration_lines = calibration_document.readlines()
-    for line in calibration_lines:
-        line = line.rstrip('\n')
     digits_lists_list = []
 
     # PART 1
