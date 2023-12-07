@@ -2,4 +2,6 @@
 
 Solutions for Advent of Code 2023 in Python
 
-tasks are here: https://adventofcode.com/2023 (code uploaded after completing task 2, parts for task 1 commented out)
+tasks can be found here: https://adventofcode.com/2023
+
+my goal is not to write the most efficient solutions, but easily understandable :)
