@@ -3,7 +3,7 @@ Advent of Code 2023, Day 1
 solution by Maja Sellmer
 """
 
-with open('advent1.txt') as calibration_document:
+with open('advent01.txt') as calibration_document:
 
     # PREPARE INPUT
     calibration_lines = calibration_document.readlines()
