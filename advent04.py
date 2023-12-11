@@ -3,7 +3,7 @@ Advent of Code 2023, Day 4
 solution by Maja Sellmer
 """
 
-with open('advent4.txt') as scratchcards_text:
+with open('advent04.txt') as scratchcards_text:
 
     # PREPARE INPUT
     # save each scratchcard as [list of winning numbers, list of numbers you have]
