@@ -3,7 +3,7 @@ Advent of Code 2023, Day 5
 solution by Maja Sellmer
 """
 
-with open('advent5.txt') as almanac_text:
+with open('advent05.txt') as almanac_text:
 
     # PREPARE INPUT
     almanac = almanac_text.readlines()
