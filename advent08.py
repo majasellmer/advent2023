@@ -5,7 +5,7 @@ solution by Maja Sellmer
 
 import numpy as np
 
-with open('advent8.txt') as maps_text:
+with open('advent08.txt') as maps_text:
 
     # PREPARE INPUT
     maps = maps_text.readlines()
