@@ -5,7 +5,7 @@ solution by Maja Sellmer
 
 from functools import cmp_to_key
 
-with open('advent7.txt') as game_text:
+with open('advent07.txt') as game_text:
 
     # PREPARE INPUT
     game = game_text.readlines()
