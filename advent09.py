@@ -3,7 +3,7 @@ Advent of Code 2023, Day 9
 solution by Maja Sellmer
 """
 
-with open('advent9.txt') as oasis_text:
+with open('advent09.txt') as oasis_text:
 
     # PREPARE INPUT
     oasis_report = oasis_text.readlines()
