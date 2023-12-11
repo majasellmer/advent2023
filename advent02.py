@@ -3,7 +3,7 @@ Advent of Code 2023, Day 2
 solution by Maja Sellmer
 """
 
-with open('advent2.txt') as games_text:
+with open('advent02.txt') as games_text:
 
     # PREPARE INPUT
     # save each game as [ID, [round 1, round 2, ...]]
