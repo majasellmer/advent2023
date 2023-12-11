@@ -3,7 +3,7 @@ Advent of Code 2023, Day 6
 solution by Maja Sellmer
 """
 
-with open('advent6.txt') as race_text:
+with open('advent06.txt') as race_text:
 
     # PREPARE INPUT
     race = race_text.readlines()
