@@ -3,7 +3,7 @@ Advent of Code 2023, Day 3
 solution by Maja Sellmer
 """
 
-with open('advent3.txt') as engine_schematic:
+with open('advent03.txt') as engine_schematic:
 
     # PREPARE INPUT
     engine_schematic_lines = engine_schematic.readlines()
