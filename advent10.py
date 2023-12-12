@@ -7,7 +7,6 @@ with open('advent10.txt') as pipes_text:
 
     # PREPARE INPUT
     pipes = pipes_text.readlines()
-    start_possibilities = ['|', '-', 'J', 'F', 'L', '7']
     # find starting coordinates and neighbours, replace S by fitting symbol
     for i, line in enumerate(pipes):
         j = line.find('S')
