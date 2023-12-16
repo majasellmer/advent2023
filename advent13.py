@@ -1,5 +1,5 @@
 """
-Advent of Code 2023, Day 11
+Advent of Code 2023, Day 13
 solution by Maja Sellmer
 """
 
